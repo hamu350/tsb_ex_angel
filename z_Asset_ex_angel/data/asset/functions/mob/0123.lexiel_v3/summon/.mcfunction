@@ -6,4 +6,3 @@
 
 # 元となるEntityを召喚する
     summon wither_skeleton ~ ~ ~ {Tags:["MobInit","ProcessCommonTag","AlwaysInvisible"],PersistenceRequired:1b,Silent:1b,NoAI:1b,DeathLootTable:"empty"}
-say 1

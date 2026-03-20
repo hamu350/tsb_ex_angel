@@ -11,6 +11,7 @@
 # 演出
     execute if score @s General.Mob.Tick matches 22 run playsound minecraft:item.trident.riptide_2 hostile @a ~ ~ ~ 1 1.4
 
+# ex: 時間を増やす
 # 弾
     execute if score @s General.Mob.Tick matches 22..52 if entity @p[distance=..80] run function asset:mob/0123.lexiel_v3/tick/common/thunder/main
 
