@@ -16,6 +16,7 @@
 
 # 引数の設定
     # 与えるダメージ
+    # ex: dmg調整
         data modify storage api: Argument.Damage set value 34.0f
     # 第一属性
         data modify storage api: Argument.AttackType set value "Physical"

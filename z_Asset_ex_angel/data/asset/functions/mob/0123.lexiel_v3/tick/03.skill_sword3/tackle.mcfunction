@@ -10,6 +10,7 @@
     execute positioned ^ ^ ^2 run tag @a[tag=!PlayerShouldInvulnerable,distance=..2] add 3F.SkillSwordDamageThis
 # 引数の設定
     # 与えるダメージ
+    # ex: dmg調整
         data modify storage api: Argument.Damage set value 28.0f
     # 第一属性
         data modify storage api: Argument.AttackType set value "Physical"

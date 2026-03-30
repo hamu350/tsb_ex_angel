@@ -11,6 +11,8 @@
     execute if score @s General.Mob.Tick matches 22..24 positioned ~ ~1 ~ positioned ^ ^ ^1 run function asset:mob/0123.lexiel_v3/tick/common/fireball
 # ハードだともうちょっと出る
     execute if score @s General.Mob.Tick matches 24..26 positioned ~ ~1 ~ positioned ^ ^ ^1 if predicate api:global_vars/difficulty/min/3_blessless run function asset:mob/0123.lexiel_v3/tick/common/fireball
+# ex: さらに出してけ
+    execute if score @s General.Mob.Tick matches 26..28 positioned ~ ~1 ~ positioned ^ ^ ^1 if predicate api:global_vars/difficulty/min/3_blessless run function asset:mob/0123.lexiel_v3/tick/common/fireball
 
 # リセット
     execute if score @s General.Mob.Tick matches 45 run function asset:mob/0123.lexiel_v3/tick/skill_reset
