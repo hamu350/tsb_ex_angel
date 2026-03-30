@@ -17,6 +17,7 @@
 
 # ダメージ設定
     # 与えるダメージ
+    # ex: dmg調整
         data modify storage api: Argument.Damage set value 30f
     # 魔法属性
         data modify storage api: Argument.AttackType set value "Magic"
